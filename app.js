@@ -12,9 +12,9 @@ var config={
 var app=new Koa();
 
 app.use(function *(next){
-    //this.body = 'Hello World';
+    this.body = 'Hello World';
 
-     console.log(this.query);
+    // console.log(this.query);
     // var token=config.token;
     // var signature=this.query.signature;
     // var nonce=this.query.nonce;
