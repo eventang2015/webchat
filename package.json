@@ -1,7 +1,7 @@
 {
   "name": "wechat",
   "version": "1.0.0",
-  "description": "",
+  "description": "wechat",
   "main": "app.js",
   "dependencies": {
     "koa": "^2.2.0",
@@ -9,8 +9,18 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
+    "keywords": [
+    "node",
+    "heroku",
+    "koa",
+    "wechat"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eventang2015/webchat"
+  }
 }
