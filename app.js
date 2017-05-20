@@ -6,7 +6,7 @@ var config={
     wechat:{
         appId:'wxd97732294d081c1d',
         appSecret:'ec2d96a460c123c89cd8855309f42512',
-        token:'wechatnodejs'
+        token:'mywechat'
     }
 };
 var app=new Koa();
@@ -29,5 +29,5 @@ app.use(function *(next){
     // }
 
 });
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT || 18080);
 //console.log('listening:3000');
